@@ -1,63 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"name": "adder",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "sum",
 						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "error",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
-						"type": "uint256"
-					}
-				],
-				"name": "subtractor",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "difference",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "error",
-						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
@@ -79,7 +34,7 @@
 		"compilationTarget": {
 			"Base/Test1.sol": "BasicMath"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -92,11 +47,11 @@
 	},
 	"sources": {
 		"Base/Test1.sol": {
-			"keccak256": "0xaac1a266364219706a0e2719c2bbbbf02c156f66336c4adfc4dd246769a57423",
+			"keccak256": "0x4d32e64d9c3a266f36c3cb64c7735370d1d95947981efa39463169df93653600",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1cab9ba1063924b3c69aee3257ca8a60edd8c2cb56e9a28953a9dfdd6a0d4f5a",
-				"dweb:/ipfs/QmWT5gyCoRQVdRKLGyK4eK7RQVowAGQPjssNzPMXZoZ5Pf"
+				"bzz-raw://b4dfde8eeddb0a06c256c9e3ea0aeddd76593fa7ca145562d8fc33c8c19c651f",
+				"dweb:/ipfs/QmRNHJg8HmJT5yarPGe2TM5wzbFEziFf421UHvdznD7XnF"
 			]
 		}
 	},
